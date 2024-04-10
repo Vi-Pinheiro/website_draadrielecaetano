@@ -4,30 +4,26 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../CSS/style.css">
         <title>Dra. Adriele Caetano</title>
     </head>
 
     <body>
-        <header id="navegacao">
-            <fieldset>
-                <legend>
-                    <a href="../aba_inicial/index.html">
-                        <img src="../aba_inicial/IMAGENS/LOGO HORIZONTAL_PNG.png" alt="Logo draadrielecaetano" width="130">
-                    </a>
-                </legend>
-                <nav>
-                    <a href="../aba_informações adicionais/atendimentos.html">Atendimentos</a>
-                    <a href="../aba_procedimentos/procedimentos.html">Procedimentos</a>
-                    <a href="../aba_cursos/formacoes.html">Formações</a>
-                    <a href="../aba_informações adicionais/saibamais.html">Saiba Mais</a>
-                </nav>
-            </fieldset>
+        <header>
+            <a id="logomarca" href="../aba_inicial/index.html"><img src="../aba_inicial/IMAGENS/LOGO HORIZONTAL_PNG.png" alt="Logo draadrielecaetano" width="130px"></a>
+                
+            <nav>
+                <a class="menu" href="../aba_informações adicionais/atendimentos.html">ATENDIMENTOS</a>
+                <a class="menu" href="../aba_procedimentos/procedimentos.html">PROCEDIMENTOS</a>
+                <a class="menu" href="../aba_cursos/formacoes.html">FORMAÇÕES</a>
+                <a class="menu" href="../aba_informações adicionais/saibamais.html">SAIBA MAIS</a>
+            </nav>    
         </header>
 
-        <main>
-            <div>
-                <h1>Dra. Adriele Caetano</h1>
-                <div>
+        <main id="conteudo-principal">
+            <section id="desenvolvimento-pessoal">
+                <article>
+                    <h1>Adriele Caetano de Sousa</h1>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla libero assumenda aperiam recusandae quibusdam 
                         adipisci repellendus quaerat. Eaque asperiores ipsa nobis. Laudantium, dolor! Illo neque soluta facere alias ducimus id?
@@ -38,25 +34,32 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla libero assumenda aperiam recusandae quibusdam 
                         adipisci repellendus quaerat. Eaque asperiores ipsa nobis. Laudantium, dolor! Illo neque soluta facere alias ducimus id?
                     </p>
+                </article>
+                
+                <img src="../aba_informações adicionais/IMAGENS_SAIBAMAIS/draadrielecaetano.jpg" title="Foto Dra. Adriele Caetano"
+                alt="Imagem da Dra. Adriele Caetano">
+            </section>
+
+            <section id="secao-video">
+                <div id="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lpexUKTsgts" title="YouTube video player" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen></iframe>
                 </div>
-                <div align="right">
-                    <img src="../aba_informações adicionais/IMAGENS_SAIBAMAIS/draadrielecaetano.jpg" title="Foto Dra. Adriele Caetano"
-                    alt="Imagem da Dra. Adriele Caetano" width="400">
-                </div>
-            </div>
-            <div>
-                <h2>Vídeo Institucional da Dra. Adriele Caetano</h2>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/lpexUKTsgts" title="YouTube video player" 
-                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                allowfullscreen></iframe>
-            </div>
+                
+
+                <p id="p-video">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, voluptas. Eveniet, esse illo adipisci ad ipsam voluptatem modi nostrum eum vel deserunt, unde, inventore voluptatum harum earum eaque dolor dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. At quisquam nesciunt, optio eius iste inventore minima ullam soluta reprehenderit porro quos, sapiente nemo dignissimos praesentium voluptatem consectetur iusto animi modi.</p>
+            </section>
         </main>
 
         <footer>
             <h2>CONTATO</h2>
-            Tel: +351 937 080 846<br>
-            E-mail: adriele.caetano1997@gmail.com<br>
-            <address>Morada: Rua Professor Veiga Beirão, 29, 1ºB, Alvalade - Lisboa</address><br>
+            <p>
+                Tel: +351 937 080 846 <br>
+                E-mail: adriele.caetano1997@gmail.com <br>
+                Morada: Rua Professor Veiga Beirão, 29, 1ºB, Alvalade - Lisboa
+            </p>
+            
         </footer>
     </body>
 </html>

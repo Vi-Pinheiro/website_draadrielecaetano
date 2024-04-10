@@ -1,7 +1,105 @@
-header {
-    background: red;
+@charset "UTF-8";
+
+*{
+    font-family: Open sans;
 }
 
-a {
+body {
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+#logomarca {
+    margin: 10px 10px 10px 10px;
+}
+
+nav > a {
+    color: #e48988;
+    text-decoration: none;
+    margin: 0px 10px 0px 20px;
+}
+
+.menu:hover {
+    font-weight: 600;
+    color: red;
+}
+
+picture {
+    background-size: 100%; 
+    background-position: center;
+}
+
+#secao-conteudo {
+    margin: 10px 25px 25px;
+}
+
+h2 > a {
+    text-decoration: none;
+    color: red;
+}
+
+#sobre {
+    background-color: #e48988;
     color: white;
+    padding: 15px 25px;
+    margin: 10px 0px 10px 0px
+}
+
+#desenvolvimento-pessoal {
+    display: flex;
+}
+
+section > img {
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    border: 15px solid #131919;
+}
+
+article > h1 {
+    font-size: 2em;
+    color: white;
+    background-color: #131919;
+    height: 60px;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 0px 20px;
+}
+
+article > p {
+    font-size: 1.3em;
+    text-align: justify;
+    padding: 0px 20px 0px 20px;
+}
+
+#secao-video {
+    align-items: center;
+    background-color: #e48988;
+    color: white;
+    display: flex;
+    padding: 0px 25px 0px 25px;
+}
+
+#video {
+    margin: 13px 10px 10px 10px;
+}
+
+#p-video {
+    text-align: center;
+    padding: 0px 50px 0px 50px;
+}
+
+footer {
+    padding: 10px 20px 10px 20px;
+}
+
+footer > h2 {
+    font-size: 0.8em;
+}
+
+footer > p {
+    font-size: 0.8em;
 }
