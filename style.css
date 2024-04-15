@@ -2,9 +2,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-*{
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/*GERAIS*/
+
+* {
     font-family: "Open Sans", sans-serif; 
 }
+
+h2 {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+p {
+    text-align: justify;
+}
+
+/*INDIVIDUAIS*/
 
 body {
     margin: 0px;
@@ -30,51 +44,54 @@ nav > a {
     color: red;
 }
 
-picture {
-    background-size: 100%; 
-    background-position: center;
+picture > img {
+    max-width: 1519px;
+    max-height: 800px;
+    width: auto;
+    height: auto;
+    margin: auto;
 }
 
 #secao-conteudo {
     margin: 10px 25px 25px;
 }
 
-h2 > a {
-    text-decoration: none;
-    color: red;
+#secao-conteudo > h2 {
+    color: #e48988;
+    font-size: 2em;
+    margin: 0px 0px 0px 0px;
 }
 
-#sobre {
-    background-color: #e48988;
-    color: white;
-    padding: 15px 25px;
-    margin: 10px 0px 0px 0px
+.procedimentos > h3 > a {
+    text-decoration: none;
+    color: #e48988;
 }
 
 #desenvolvimento-pessoal {
     display: flex;
 }
 
-section > img {
+#desenvolvimento-pessoal > img {
     max-height: 400px;
     width: auto;
     height: auto;
-    border: 15px solid #131919;
+    border: 15px solid #e48988;
+    border-bottom: 0px;
 }
 
-article > h1 {
+.desenvolvimento > h1 {
+    font-family: "Bebas Neue", sans-serif;
     font-size: 2em;
     color: white;
-    background-color: #131919;
-    height: 60px;
+    background-color: #e48988;
     margin: 0px 0px 0px 0px;
-    padding: 10px 0px 0px 20px;
+    padding: 10px 0px 10px 20px;
 }
 
-article > p {
+.desenvolvimento > p {
     font-size: 1.3em;
     text-align: justify;
-    padding: 0px 20px 0px 20px;
+    padding: 10px 20px 0px 20px;
 }
 
 #secao-video {
@@ -92,6 +109,49 @@ article > p {
 #p-video {
     text-align: center;
     padding: 0px 50px 0px 50px;
+}
+
+aside {
+    background-color: #e48988;
+    color: white;
+}
+
+aside > h2 {
+    font-size: 2em;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 0px 25px;
+}
+
+#clientes {
+    display: flex;
+    padding: 15px 25px;
+}
+
+.comentario {
+    border: 3px solid white;
+    border-radius: 10px;
+    margin: 0px 15px 0px 0px;
+    width: 410px;
+}
+
+.comentario > h3 {
+    background-color: white;
+    color: #e48988;
+    margin: 0px 10px 0px 0px;
+    padding: 5px 0px 5px 10px;
+    width: 402px;
+    border-radius: 0px 10px 0px 0px;
+}
+
+.comentario > p {
+    margin: 0px 10px 0px 0px;
+    padding: 5px 0px 5px 10px;
+    width: 392px;
+    border-radius: 0px 10px 0px 0px;
+}
+
+#contato {
+    padding: 10px 10px 10px 10px;
 }
 
 footer {
