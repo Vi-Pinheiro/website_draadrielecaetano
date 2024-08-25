@@ -4,14 +4,26 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-/*GERAIS*/
+:root {
+    --cor-principal: #F29191;
+    --cor-destaque: #331414;
+    --cor-escura: #0D0D0D;
+    --cor-rodape: #131919;
+
+    --fonte-padrao: "Open Sans", sans-serif;
+    --fonte-titulo: "Bebas Neue", sans-serif;
+}
+
+/*GLOBAIS*/
 
 * {
-    font-family: "Open Sans", sans-serif; 
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--fonte-padrao);  
 }
 
 h2 {
-    font-family: "Bebas Neue", sans-serif;
+    font-family: var(--fonte-titulo);
 }
 
 p {
@@ -25,46 +37,52 @@ body {
 }
 
 header {
+    max-width: 1200px;
+    margin: auto;
     display: flex;
     align-items: center;
 }
 
 #logomarca {
-    margin: 10px 10px 10px 10px;
+    margin: 10px 100px 10px 10px;
 }
 
 nav > a {
-    color: #e48988;
+    color: var(--cor-principal);
     text-decoration: none;
     margin: 0px 10px 0px 20px;
 }
 
 .menu:hover {
     font-weight: 600;
-    color: red;
+    color: var(--cor-destaque);
 }
 
 picture > img {
-    max-width: 1519px;
-    max-height: 800px;
-    width: auto;
-    height: auto;
+    width: 100%;
     margin: auto;
 }
 
 #secao-conteudo {
-    margin: 10px 25px 25px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 #secao-conteudo > h2 {
     color: #e48988;
-    font-size: 2em;
-    margin: 0px 0px 0px 0px;
+    font-size: 2.5em;
+    margin: 10px 25px 10px 25px;
+    text-align: center;
 }
 
 .procedimentos > h3 > a {
     text-decoration: none;
     color: #e48988;
+    margin: 10px 25px 10px 25px;
+}
+
+.procedimentos > p {
+    margin: 10px 25px 20px 25px;
 }
 
 #desenvolvimento-pessoal {
@@ -116,7 +134,12 @@ aside {
     color: white;
 }
 
-aside > h2 {
+#aside-conteudo {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#aside-conteudo > h2 {
     font-size: 2em;
     margin: 0px 0px 0px 0px;
     padding: 10px 0px 0px 25px;
@@ -131,22 +154,18 @@ aside > h2 {
     border: 3px solid white;
     border-radius: 10px;
     margin: 0px 15px 0px 0px;
-    width: 410px;
+    max-width: 300px;
 }
 
 .comentario > h3 {
     background-color: white;
     color: #e48988;
-    margin: 0px 10px 0px 0px;
-    padding: 5px 0px 5px 10px;
-    width: 402px;
-    border-radius: 0px 10px 0px 0px;
+    padding: 3px 0px 3px 10px;
 }
 
 .comentario > p {
     margin: 0px 10px 0px 0px;
     padding: 5px 0px 5px 10px;
-    width: 392px;
     border-radius: 0px 10px 0px 0px;
 }
 
@@ -155,13 +174,18 @@ aside > h2 {
 }
 
 footer {
-    padding: 10px 20px 10px 20px;
-    background-color: #131919;
+    padding: 10px 20px 10px 20px;    
+    background-color: var(--cor-rodape);
+    }
+
+#footer-conteudo {
+    max-width: 510px;
+    margin: auto;
     display: flex;
     align-items: center;
 }
 
-footer > p {
+#footer-conteudo > p {
     color: white;
     font-size: 1em;
     margin: 0px;
@@ -185,4 +209,3 @@ footer > p {
     height: auto;
     margin: 0px 10px 0px 0px;
 }
-

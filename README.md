@@ -5,6 +5,7 @@ Desenvolvimento de uma página, com o objetivo de aprendizado.
 
 ## Layout atual das Páginas.
 - 15/04/2024
+
 ![Index](imagens/index.jpg)
 
 ## Tecnologias Utilizadas
