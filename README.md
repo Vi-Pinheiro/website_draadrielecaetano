@@ -1,16 +1,18 @@
-# PROJETO DE PÁGINA
-![Dra. Adriele Caetano](imagens/LOGO%20BRANCO.jpg)
+<img src="imagens/LOGO HORIZONTAL_branco_PNG.png" width="150px">
 
-Desenvolvimento de uma página, com o objetivo de aprendizado.
 
-## Layout atual das Páginas.
-- 10/09/2024
+## Link: https://vi-pinheiro.github.io/website_draadrielecaetano/
+### Projeto: *Desenvolvimento da página profissional, da Dra. Adriele Caetano.*
 
-![Index](imagens/index.jpg)
-
-## Tecnologias Utilizadas
+# Tecnologias Utilizadas
 - HTML5 
 - CSS3
 
-# Observações
-- A cada atualização, surgirão novas informações.
+## Opção de Layout da Página.
+![Index](imagens/index.jpg)
+
+### Atualização 10/09:
+- Foi alterado os estilos das páginas;
+- Atualização da página **Contato**.
+
+
