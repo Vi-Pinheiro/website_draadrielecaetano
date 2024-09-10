@@ -47,6 +47,12 @@ header {
     margin: 10px 100px 10px 10px;
 }
 
+nav {
+    position: absolute;
+    left: 63%;
+    margin: 10px 0px;
+}
+
 nav > a {
     color: var(--cor-principal);
     text-decoration: none;
@@ -72,7 +78,6 @@ picture > img {
     color: #e48988;
     font-size: 2.5em;
     margin: 10px 25px 10px 25px;
-    text-align: center;
 }
 
 .procedimentos > h3 > a {
