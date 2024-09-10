@@ -30,13 +30,17 @@ p {
     text-align: justify;
 }
 
-/*INDIVIDUAIS*/
-
 body {
     margin: 0px;
 }
 
+/*Header ---------------------------------------------------*/
+
 header {
+    background-color: white;
+}
+
+header div {
     max-width: 1200px;
     margin: auto;
     display: flex;
@@ -64,119 +68,7 @@ nav > a {
     color: var(--cor-destaque);
 }
 
-picture > img {
-    width: 100%;
-    margin: auto;
-}
-
-#secao-conteudo {
-    max-width: 1200px;
-    margin: auto;
-}
-
-#secao-conteudo > h2 {
-    color: #e48988;
-    font-size: 2.5em;
-    margin: 10px 25px 10px 25px;
-}
-
-.procedimentos > h3 > a {
-    text-decoration: none;
-    color: #e48988;
-    margin: 10px 25px 10px 25px;
-}
-
-.procedimentos > p {
-    margin: 10px 25px 20px 25px;
-}
-
-#desenvolvimento-pessoal {
-    display: flex;
-}
-
-#desenvolvimento-pessoal > img {
-    max-height: 400px;
-    width: auto;
-    height: auto;
-    border: 15px solid #e48988;
-    border-bottom: 0px;
-}
-
-.desenvolvimento > h1 {
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 2em;
-    color: white;
-    background-color: #e48988;
-    margin: 0px 0px 0px 0px;
-    padding: 10px 0px 10px 20px;
-}
-
-.desenvolvimento > p {
-    font-size: 1.3em;
-    text-align: justify;
-    padding: 10px 20px 0px 20px;
-}
-
-#secao-video {
-    align-items: center;
-    background-color: #e48988;
-    color: white;
-    display: flex;
-    padding: 0px 25px 0px 25px;
-}
-
-#video {
-    margin: 13px 10px 10px 10px;
-}
-
-#p-video {
-    text-align: center;
-    padding: 0px 50px 0px 50px;
-}
-
-aside {
-    background-color: #e48988;
-    color: white;
-}
-
-#aside-conteudo {
-    max-width: 1200px;
-    margin: auto;
-}
-
-#aside-conteudo > h2 {
-    font-size: 2em;
-    margin: 0px 0px 0px 0px;
-    padding: 10px 0px 0px 25px;
-}
-
-#clientes {
-    display: flex;
-    padding: 15px 25px;
-}
-
-.comentario {
-    border: 3px solid white;
-    border-radius: 10px;
-    margin: 0px 15px 0px 0px;
-    max-width: 300px;
-}
-
-.comentario > h3 {
-    background-color: white;
-    color: #e48988;
-    padding: 3px 0px 3px 10px;
-}
-
-.comentario > p {
-    margin: 0px 10px 0px 0px;
-    padding: 5px 0px 5px 10px;
-    border-radius: 0px 10px 0px 0px;
-}
-
-#contato {
-    padding: 10px 10px 10px 10px;
-}
+/*Footer ---------------------------------------------------*/
 
 footer {
     padding: 10px 20px 10px 20px;    

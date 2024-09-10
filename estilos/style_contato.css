@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+body {
+    background-color: #e48988;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#desenvolvimento-pessoal {
+    display: flex;
+    background-color: white;
+}
+
+#desenvolvimento-pessoal > img {
+    max-height: 400px;
+    border-right: 8px solid white;
+    border-left: 8px solid white;
+    border-bottom:8px solid white;
+}
+
+.desenvolvimento > h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2em;
+    color: white;
+    background-color: #e48988;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 10px 20px;
+}
+
+.desenvolvimento > p {
+    font-size: 1.3em;
+    text-align: justify;
+    padding: 10px 20px 0px 20px;
+}
+
+#secao-video {
+    align-items: center;
+    background-color: #e48988;
+    color: white;
+    display: flex;
+    padding: 0px 25px 0px 25px;
+    border: 10px solid white;
+    border-top: 0px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#video {
+    margin: 13px 10px 10px 10px;
+}
+
+#p-video {
+    text-align: center;
+    padding: 0px 50px 0px 50px;
+}
+
+#contato {
+    margin: 10px;
+}
+
